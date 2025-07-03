@@ -60,7 +60,7 @@ const Contact = () => {
 
   return (
     <section
-      id="contact" className="h-[85vh] relative py-16 px-4 sm:px-6 lg:px-8 bg-white"
+      id="contact" className="min-h-screen relative py-16 px-4 sm:px-6 lg:px-8 bg-white"
     >
       <div className="max-w-7xl mx-auto">
         {/* Animated header */}
