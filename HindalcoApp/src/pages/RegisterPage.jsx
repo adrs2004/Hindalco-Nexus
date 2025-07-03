@@ -32,7 +32,7 @@ export default function RegisterPage() {
   };
 
   return (
-    <div className="min-h bg-gray-50 flex">
+    <div className="min-h-screen bg-gray-50 flex">
       {/* Left side with illustration */}
       <div className="hidden lg:block relative w-1/2 bg-gradient-to-br from-red-50 to-orange-50 overflow-hidden">
         {/* Geometric shapes */}
