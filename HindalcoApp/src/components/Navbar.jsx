@@ -75,12 +75,12 @@ export default function Navbar() {
           {userInfo ? (
             <>
               <Link to="/create-issue" className="text-gray-800 font-semibold hover:text-blue-600 transition-colors">
-                Create Issue
+                Issue Desk
               </Link>
               <Link to="/issue-status" className="text-gray-800 font-semibold hover:text-blue-600 transition-colors">
-                Issue Status
+                View Progress
               </Link>
-              <Link to="/contact" className="text-gray-800 font-semibold hover:text-blue-600">Contact</Link>
+              <Link to="/contact" className="text-gray-800 font-semibold hover:text-blue-600">Reach Us</Link>
               <button
                 onClick={handleLogout}
                 className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md transition-colors duration-200 flex items-center"
@@ -130,12 +130,12 @@ export default function Navbar() {
             {userInfo ? (
               <>
                 <Link to="/create-issue" className="text-gray-800 font-semibold hover:text-blue-600">
-                  Create Issue
+                  Issue Desk
                 </Link>
                 <Link to="/issue-status" className="text-gray-800 font-semibold hover:text-blue-600">
-                  Issue Status
+                  Get Support
                 </Link>
-                <Link to="/contact" className="text-gray-800 font-semibold hover:text-blue-600">Contact</Link>
+                <Link to="/contact" className="text-gray-800 font-semibold hover:text-blue-600">Reach Us</Link>
                 <button
                   onClick={handleLogout}
                   className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md flex items-center"
